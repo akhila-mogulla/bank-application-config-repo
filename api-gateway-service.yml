@@ -10,6 +10,10 @@ spring:
           uri: lb://ACCOUNT-SERVICE
           predicates:
             - Path= /api/account/**
+        - id: LOAN-AND-CREDIT-SERVICE
+          uri: lb://LOAN-AND-CREDIT-SERVICE
+          predicates:
+            - Path= /api/lnc/**
 server:
   port: 9393
 management:

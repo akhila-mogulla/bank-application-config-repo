@@ -1,2 +1,1 @@
-#Banking Application
-Creating a full-stack Java application with Angular for a bank application is a substantial project that involves multiple components.
+Creating a full-stack Java application with Angular for a bank application.
